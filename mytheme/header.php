@@ -11,20 +11,22 @@
 	<div id="wrapper">
 		<header>
 			<div class="banner">
-			<img src="banner1.jpeg" alt="banner1" class="banner1">	
+				<img src="banner1.jpeg" alt="banner1" class="banner1">	
 			</div>
-            <div class="topnav">
-            	<a class="active" href="C:/xampp/htdocs/wordpress/wp-content/themes/mytheme/page.html">Home</a>
-                <a href="C:/xampp/htdocs/wordpress/wp-content/themes/mytheme/internethistory.html">Internet History</a>
-                <a href="C:/xampp/htdocs/wordpress/wp-content/themes/mytheme/socialimpact.html">Social Impact</a>
-                <a href="C:/xampp/htdocs/wordpress/wp-content/themes/mytheme/surfalungt.html">Surfalungt</a>
-                <a href="C:/xampp/htdocs/wordpress/wp-content/themes/mytheme/webtech.html">WebTech</a>
-                <a href="C:/xampp/htdocs/wordpress/wp-content/themes/mytheme/aboutme.html">About Me</a>
-                <a href="C:/xampp/htdocs/wordpress/wp-content/themes/mytheme/formulary.html">Contact</a>
-            </div>
+            <div id = "navigation">
+        		<div class="topnav">
+            		<a href="page.html">Home</a>
+           			<a href="internethistory.html">Internet History</a>
+            		<a href="socialimpact.html">Social Impact</a>
+           		 	<a href="surfalungt.html">Surfalungt</a>
+            		<a href="webtech.html">WebTech</a>
+            		<a href="aboutme.html">About Me</a>
+            		<a href="formulary.html">Contact</a>
+        		</div>
+    		</div>
 
 			<aside>
-				<p>Eventuell sidoinformation såsom kontaktuppgifter.Eller knappar för sociala medier</p>
+				<p>Some things is about to happen!</p>
 			</aside>
 		</header>
 		<nav>
