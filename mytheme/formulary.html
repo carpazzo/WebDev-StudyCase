@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="imagesstyle.css">
     <img src="banner1.jpg" alt="banner1" class="banner1">
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
  
 </head>
 <body>
@@ -43,7 +45,7 @@
 
             <p>Leave me a comment!</p>
             <p><textarea name="comment" id="comment" cols="60" rows="10"></textarea></p>
-            <p><input type="button" value="Send" class="button"></p>
+            <p><input type="button" value="Send" class="button" onclick="thankyou()"></p>
             
         </form>
         
@@ -61,6 +63,7 @@
     </div>
     <footer>
         Webdeveloper Dalton Ramiro
+        <p id="date"></p>
     </footer>
 </body>
 </html>
