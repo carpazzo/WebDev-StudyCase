@@ -1,0 +1,71 @@
+/*
+Theme Name: Scales of Grey
+Author: Dalton Ramiro
+Description: controll of images and banner
+Version: 1.0
+License: GNU General Public License v2 or later
+Tags: css image controll
+
+*/
+
+
+.banner1
+{
+    display: block;
+    margin:auto;
+    height: 260px;
+    width: 100%;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    
+}
+.sample1
+{
+    display: block;
+    width:192px;
+    height:192px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1em;
+    
+
+}
+.sample2
+{
+    display: block;
+    width:296px;
+    height:192px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1em;
+}
+.samplefr
+{
+    display: block;
+    width:350px;
+    height:200px;
+    float:right;
+    border-radius: 1em;
+    margin-right: 70px;
+}
+.icons
+{
+    display: block;
+    width:120px;
+    height:120px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+
+    
+}
+body
+{
+    display: block;
+    background-image:url("testbkg3.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover ;
+    height: 100%;
+    width: 100%;
+}

@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8" />
 	<link href="<?php echo get_bloginfo('template_directory'); ?>/style.css" rel="stylesheet">
+	<link href="<?php echo get_bloginfo('template_directory'); ?>/imagesstyle.css" rel="stylesheet">
 	<title>
 		Homepage
 	</title>
